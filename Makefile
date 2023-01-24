@@ -4,10 +4,13 @@ install: #установка poetry
 brain-games: #запуск brain-games 
 	poetry run brain-games
 
-build: 
+brain-even: #запуск brain-even
+	poetry run brain-even
+
+build: #cборка проекта
 	poetry build
 
-publish: 
+publish: #отладка проекта
 	poetry publish --dry-run
 
 package-install:
@@ -15,6 +18,9 @@ package-install:
 
 make lint: #запускаем flex8
 	poetry run flake8 brain_games
+
+brain-calc: #запускаем brain-calc
+	poetry run brain-calc
 
 	
 
