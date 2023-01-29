@@ -22,6 +22,9 @@ make lint: #запускаем flex8
 brain-calc: #запускаем brain-calc
 	poetry run brain-calc
 
+brain-gcd: #запускаем brain_gcd
+	poetry run brain-gcd
+
 	
 
 

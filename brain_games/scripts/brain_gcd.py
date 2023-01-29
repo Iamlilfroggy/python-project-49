@@ -2,11 +2,11 @@
 
 
 from brain_games import greet
-from brain_games.games import brain_calc
+from brain_games.games import brain_gcd
 
 
 def main():
-    greet.start(brain_calc)
+    greet.start(brain_gcd)
 
 
 if __name__ == '__main__':
