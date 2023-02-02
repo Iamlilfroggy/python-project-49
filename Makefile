@@ -25,11 +25,6 @@ brain-calc: #запускаем brain-calc
 brain-gcd: #запускаем brain_gcd
 	poetry run brain-gcd
 
-brain-progression:  #запускаем brain_progression
-	poetry run brain-progression
-
-brain-prime: #запускаем brain_prime
-	poetry run brain-prime
 	
 
 
