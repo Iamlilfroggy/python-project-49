@@ -1,11 +1,12 @@
 from random import randint
 
-start_word = 'What number is missing in the progression?'
-
+START_WORD = 'What number is missing in the progression?'
+LOWER_LIMIT = 1
+UPPER_LIMIT = 13
 
 def play():
-    start_number = randint(0, 13)
-    inc_number = randint(0, 13)
+    start_number = randint(LOWER_LIMIT, UPPER_LIMIT)
+    inc_number = randint(LOWER_LIMIT, UPPER_LIMIT)
     progression = [(start_number + i * inc_number) for i in range(10)]
     hidden_number = randint(0, 9)
     result = str(progression[hidden_number])

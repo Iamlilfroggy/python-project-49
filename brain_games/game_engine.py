@@ -8,7 +8,7 @@ def start(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.start_word)
+    print(game.START_WORD)
     score = 0
     while score < WIN:
         question, result = game.play()
