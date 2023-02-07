@@ -4,6 +4,7 @@ START_WORD = 'What number is missing in the progression?'
 LOWER_LIMIT = 1
 UPPER_LIMIT = 13
 
+
 def play():
     start_number = randint(LOWER_LIMIT, UPPER_LIMIT)
     inc_number = randint(LOWER_LIMIT, UPPER_LIMIT)

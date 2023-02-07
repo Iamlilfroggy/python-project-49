@@ -5,6 +5,7 @@ START_WORD = 'Answer "yes" if the number is even, otherwise answer "no".'
 LOWER_LIMIT = 1
 UPPER_LIMIT = 100
 
+
 def play():
     num = randint(LOWER_LIMIT, UPPER_LIMIT)
     question = f'{num}'
